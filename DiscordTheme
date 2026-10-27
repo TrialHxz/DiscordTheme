@@ -1,7 +1,56 @@
-echo "# DiscordTheme" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/TrialHxz/DiscordTheme.git
-git push -u origin main
+/**
+ * @name Satoru Gojo theme
+ * @version 1.0.6.3
+ * @description A translucent/frosted glass Discord theme
+ * @author CapnKitten
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Translucence/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ * @BDEditor Translucence
+*/
+
+@import url('https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css');
+
+:root {
+  --app-bg: url('https://imgur.com/a/rzoqGMq');
+  --app-blur: 2px;
+  --app-margin: 24px;
+  --app-radius: 8px;
+  --accent-hue: 214;
+  --accent-saturation: 61%;
+  --accent-lightness: 61%;
+  --accent-opacity: 1;
+  --sidebar-color: rgba(0,0,0,0.4);
+  --main-content-color: rgba(0,0,0,0.2);
+  --undefined: 0;
+  --interactive-normal: #DDF4FF;
+  --interactive-hover: #CEF0FF;
+  --interactive-active: #DBF4FF;
+  --interactive-muted: #95B7C6;
+  --undefined: 0;
+  --background-modifier-hover: rgb(89,172,218,0.075);
+  --background-modifier-selected: rgba(255,255,255,0.125);
+  --message-color: rgb(127,187,221,0.4);
+  --message-radius: 8px;
+  --message-padding-top: 8px;
+  --message-padding-side: 8px;
+  --undefined: 0;
+  --reply-hue: 226;
+  --reply-saturation: 77%;
+  --reply-lightness: 61%;
+  --reply-opacity: 1;
+  --textarea-color: 195,231,248;
+  --textarea-alpha: 0.1;
+  --textarea-alpha-focus: 0.15;
+  --textarea-radius: 22px;
+  --card-color: rgb(175,215,233,1);
+  --card-color-hover: rgb(199,237,255,1);
+  --card-color-select: rgb(230,243,249,1);
+  --button-height: 32px;
+  --button-padding: 0 16px;
+  --button-radius: 16px;
+}
+
+/* Any custom CSS below here */
+
